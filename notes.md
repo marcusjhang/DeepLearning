@@ -42,3 +42,9 @@ Symptoms:
 
 	•	Low accuracy on both the training data and the validation/test data.
 	•	Small gap between training and validation/test performance metrics, both of which are poor.
+
+## Back Propagation + Loss Calculation
+- Back propagation: 
+1. input is passed into network
+2. loss is calculated using a loss function (mean squared error etc)
+3. weights of hidden layers and biases are modified to reduce the loss value
